@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+
+<body>
+    <article><!--titulo e subtitulo do formulario-->
+        <h1>Formulario</h1>
+        <h3>Preencha o Formulario</h3>
+    </article>
+    <form action="/pagina-processa-dados-form" mrthod="post"> <!--começo do formulario-->
+        <div><!--1 item do formulario-->
+            <label for="name">Nome</label>
+            <input type="text" id="name"/>
+            <div><!--2 item do formulario-->
+                <label for="mail">E-mail</label>
+                <input type="email" id="mail">
+            </div>
+            <div><!--3 item do formulario-->
+                <label for="fone">Telefone</label>
+                <input type="number" id="fone">
+            </div>
+            <div><!--ultimo item do formulario-->
+                <label for="msg">Mensagem</label>
+                <textarea id="msg"></textarea>
+            </div>
+
+        </div>
+</body>
+</html>
